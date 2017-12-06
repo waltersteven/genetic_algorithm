@@ -1,0 +1,13 @@
+##Algoritmo genetico
+
+-Comienza con una poblacion inicial aleatoria
+
+-Para esta poblacion aplica la funcion fitness (cuando esta no cambie se terminaria la ejecucion)
+
+-Comienza el proceso de creacion de generaciones que evolucionan de la primera poblacion aplicacion seleccion, crossover y mutacion.
+
+* Seleccion: conservar los cromosomas (especies) con mejor performance para convertirse en padres
+
+* Crossover: Seleccionamos simulitudes comunes entre los padres y mantener esas para crear los hijos.
+
+* Mutation: Se toma un padre y se alteran ciertos valores para crear los hijos. (ayuda a evitar encontrar minimos locales) 
